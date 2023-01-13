@@ -17,22 +17,36 @@ body{
   margin-top: 10px;
   font-size: 20px;
 }
+#first{
+    width: 90%;
+    margin: auto;
+}
 #survey-form{
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding-top: 35px;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
-  margin-top: 30px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
   width: 50%;
+  padding-bottom: 50px;
 }
 label{
   color: white;
 }
-input, select{
-  width: 150px;
+#name {
+  width: 90%;
   height: 25px;
   padding: 5px;
   border-radius: 5px;
+  border:1px lightgrey;
+}
+#opt select{
+    width:91.5%;
+    height:2.5em;
+    border-radius: 5px;
+    border:1px lightgrey;
+    bottom: 10px;
 }
