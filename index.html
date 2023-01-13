@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,35 +8,38 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <div class="header">
-    <h1 id="head">Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <h1 id="head">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
     </div>
-    <form  id="survey-form">
+    <form id="survey-form">
         <div id="first">
-        <Label>Name</Label><br><br>
-        <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
-        <Label>Email</Label><br><br>
-        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
-        <Label>age</Label><br><br>
-        <input type="number" name="age" id="age" placeholder="Enter your age"><br><br>
-        <label>Which option best describes your current role?</label>
+            <Label>Name</Label><br><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+            <Label>Email</Label><br><br>
+            <input type="email" name="email" id="name" placeholder="Enter your email"><br><br>
+            <Label>age</Label><br><br>
+            <input type="number" name="age" id="name" placeholder="Enter your age"><br><br>
+            <label>Which option best describes your current role?</label>
+            <div id="select">
+                <select>
+                    <option name="Select Your Role">Select Your Role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Learner">Full Time Learner</option>
+                    <option value="Prefer Not TO Say">Prefer Not TO Say</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
         </div>
-        <div id="select">
-            <select>
-            <option name="Select Your Role">Select Your Role</option>
-            <option value="Student">Student</option>
-            <option value="Full Time Job">Full Time Job</option>
-            <option value="Full Time Learner">Full Time Learner</option>
-            <option value="Prefer Not TO Say">Prefer Not TO Say</option>
-            <option value="Others">Others</option>
-            </select>
-        </div>
+        
 
 
 
     </form>
 
 </body>
+
 </html>
